@@ -1,8 +1,11 @@
 import java.util.Scanner;
 
 public class NumberOperations {
+
+// Finding second highest and second lowest
+
 // Bubble sort method
-    public static void sortArray(int[] arr) {
+  public static void sortArray(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = 0; j < arr.length - i - 1; j++) {
 
